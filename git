@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m 
+git remote add origin https://github.com/Rajahassan941/blog-mern
+git push -u -f origin main
