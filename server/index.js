@@ -112,7 +112,7 @@ app.get('/post/:id',async(req,res)=>{
   res.json(postDoc)
 })
 
-app.listen(4000, () => {
+app.listen(PORT, () => {
   console.log(`app listening on ${PORT}`);
 });
 
